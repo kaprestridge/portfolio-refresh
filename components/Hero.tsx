@@ -94,7 +94,7 @@ export const Hero: FunctionComponent = () => {
                 DEVELOPER
               </p>
               <h1 className="text-4xl tracking-tight font-extrabold text-indigo-700 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Hi there, I'm Kathryn</span>
+                <span className="block xl:inline">Hi there, Im Kathryn</span>
                 <span className="block text-indigo-900 ">
                   I build cool apps and websites
                 </span>
