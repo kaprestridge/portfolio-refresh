@@ -88,15 +88,24 @@ export const Hero: FunctionComponent = () => {
             </div>
           </div>
 
-          <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
+          <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 flex flex-column">
+            <div className="md:place-content-center">
+              <img
+                className="object-fill w-full h-48"
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg"
+                alt="Placeholderimage"
+              />
+            </div>
             <div className="">
               <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                DEVELOPER
+                {"DEVELOPER"}
               </p>
               <h1 className="text-4xl tracking-tight font-extrabold text-indigo-700 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Hi there, Im Kathryn</span>
+                <span className="block xl:inline">
+                  {"Hi there, I'm Kathryn"}
+                </span>
                 <span className="block text-indigo-900 ">
-                  I build cool apps and websites
+                  {"I build cool apps and websites"}
                 </span>
               </h1>
 
@@ -106,7 +115,7 @@ export const Hero: FunctionComponent = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10"
                   >
-                    Get in Touch
+                    {"Get in Touch"}
                   </a>
                 </div>
               </div>
