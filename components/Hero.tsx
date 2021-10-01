@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from "react";
 
+import Image from "next/image";
 export const Hero: FunctionComponent = () => {
   return (
     <>
@@ -90,10 +91,12 @@ export const Hero: FunctionComponent = () => {
 
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 flex flex-column">
             <div className="md:place-content-center">
-              <img
+              <Image
                 className="object-fill w-full h-48"
                 src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg"
                 alt="Placeholderimage"
+                height={533}
+                width={400}
               />
             </div>
             <div className="">
