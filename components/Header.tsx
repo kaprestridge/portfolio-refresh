@@ -2,16 +2,10 @@ import React, { FunctionComponent } from "react";
 // import Image from 'next/image'
 
 export interface HeaderProps {
-  id: number;
-  title: string;
-  link: string;
+  data: { id: number; title: string; link: string }[];
 }
 
-export interface HeaderArray {
-  data: HeaderProps[];
-}
-
-export const Header: FunctionComponent<HeaderArray> = ({ data }) => {
+export const Header: FunctionComponent<HeaderProps> = ({ data }) => {
   return (
     <>
       <header className="bg-white">
@@ -42,6 +36,8 @@ export const Header: FunctionComponent<HeaderArray> = ({ data }) => {
                   href={item.link}
                   className="text-base font-medium text-indigo-700 hover:text-indigo-900"
                   key={item.id}
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   {item.title}
                 </a>
