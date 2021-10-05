@@ -6,6 +6,8 @@ import { About } from "../components/About";
 import { Technologies } from "../components/Technologies";
 import { technologyData } from "../data/technologies";
 import { Quoteblock } from "../components/Quoteblock";
+import { Projects } from "../components/Projects";
+import { projectData } from "../data/projects";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +17,7 @@ const Home: NextPage = () => {
       <About />
       <Technologies data={technologyData} />
       <Quoteblock />
+      <Projects data={projectData} />
     </>
   );
 };
