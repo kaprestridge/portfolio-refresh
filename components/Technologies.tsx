@@ -19,7 +19,7 @@ export const Technologies: FunctionComponent<TechnologyProps> = ({ data }) => {
           {"Technical skill set"}
         </span>
       </h1>
-      <div className="mx-10 md:mx-20 rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
+      <div className="mx-10 md:mx-20 lg:mx-60 rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
         {data.map(item => (
           <div
             key={item.id}
