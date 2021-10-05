@@ -5,6 +5,7 @@ import { Hero } from "../components/Hero";
 import { About } from "../components/About";
 import { Technologies } from "../components/Technologies";
 import { technologyData } from "../data/technologies";
+import { Quoteblock } from "../components/Quoteblock";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Hero />
       <About />
       <Technologies data={technologyData} />
+      <Quoteblock />
     </>
   );
 };
