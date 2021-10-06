@@ -244,13 +244,16 @@ export const Contact = () => {
                     Send me a message
                   </h3>
                   <form
-                    action="/contact-thanks"
                     method="POST"
                     className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
-                    data-netlify-honeypot="bot-field"
                     data-netlify="true"
-                    id="contact-form"
+                    name="contact-form"
                   >
+                    <input
+                      type="hidden"
+                      name="contact-form"
+                      value="contact-form"
+                    />
                     <div>
                       <label
                         htmlFor="first-name"
