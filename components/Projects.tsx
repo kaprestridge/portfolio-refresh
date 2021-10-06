@@ -1,4 +1,3 @@
-import { projectData } from "../data/projects";
 import Image from "next/dist/client/image";
 import { FunctionComponent } from "react";
 
@@ -21,9 +20,9 @@ export const Projects: FunctionComponent<ProjectProps> = ({ data }) => {
         </div>
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center">
-            <span className="m-5 block  text-center tracking-wide text-5xl font-extrabold text-indigo-700">
+            <h1 className="m-5 block  text-center tracking-wide text-5xl font-extrabold text-indigo-700">
               Past Projects
-            </span>
+            </h1>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             {data.map(item => (
