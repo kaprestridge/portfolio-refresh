@@ -8,6 +8,7 @@ import { technologyData } from "../data/technologies";
 import { Quoteblock } from "../components/Quoteblock";
 import { Projects } from "../components/Projects";
 import { projectData } from "../data/projects";
+import { Contact } from "../components/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Technologies data={technologyData} />
       <Quoteblock />
       <Projects data={projectData} />
+      <Contact />
     </>
   );
 };
