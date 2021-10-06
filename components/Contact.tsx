@@ -248,7 +248,9 @@ export const Contact = () => {
                     className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
                     data-netlify="true"
                     name="contact-form"
+                    netlify-honeypot="bot-field"
                   >
+                    <input type="hidden" name="bot-field" />
                     <input
                       type="hidden"
                       name="contact-form"
