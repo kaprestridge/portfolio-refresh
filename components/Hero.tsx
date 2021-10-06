@@ -76,54 +76,28 @@ export const Hero: FunctionComponent = () => {
             </svg>
           </div>
         </div>
-
-        <div className="relative pt-6 pb-16 sm:pb-24">
-          <div>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6">
-              <nav
-                className="relative flex items-center justify-between sm:h-10 md:justify-center"
-                aria-label="Global"
-              >
-                <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0"></div>
-              </nav>
-            </div>
-          </div>
-
-          <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 flex flex-column">
-            <div className="md:place-content-center">
-              <Image
-                className="object-fill w-full h-48"
-                src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg"
-                alt="Placeholderimage"
-                height={533}
-                width={400}
-              />
-            </div>
-            <div className="">
-              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                {"DEVELOPER"}
-              </p>
-              <h1 className="text-4xl tracking-tight font-extrabold text-indigo-700 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">
-                  {"Hi there, I'm Kathryn"}
-                </span>
-                <span className="block text-indigo-900 ">
-                  {"I build cool apps and websites"}
-                </span>
-              </h1>
-
-              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10"
-                  >
-                    {"Get in Touch"}
-                  </a>
-                </div>
+        <div className="relative pt-6 pb-16 sm:pb-24 min-h-3/4 h-full flex items-stretch">
+          <div className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 flex text-center flex-col h-full">
+            <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              DEVELOPER
+            </p>
+            <h1 className="text-4xl tracking-tight font-extrabold text-indigo-700 sm:text-5xl md:text-6xl">
+              <span className="block xl:inline">Hi there, I'm Kathryn</span>
+              <span className="block text-indigo-900 ">
+                I build cool apps and websites
+              </span>
+            </h1>
+            <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+              <div className="rounded-md shadow">
+                <a
+                  href="#"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-900 md:py-4 md:text-lg md:px-10"
+                >
+                  Get in Touch
+                </a>
               </div>
             </div>
-          </main>
+          </div>
         </div>
       </div>
     </>

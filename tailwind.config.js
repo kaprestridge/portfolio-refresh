@@ -11,6 +11,9 @@ module.exports = {
         "warm-gray": colors.warmGray,
       },
     },
+    minHeight: {
+      "3/4": "75vh",
+    },
   },
   variants: {
     extend: {},
