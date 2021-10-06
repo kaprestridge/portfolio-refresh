@@ -9,6 +9,7 @@ import { Quoteblock } from "../components/Quoteblock";
 import { Projects } from "../components/Projects";
 import { projectData } from "../data/projects";
 import { Contact } from "../components/Contact";
+import { Footer } from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       <Quoteblock />
       <Projects data={projectData} />
       <Contact />
+      <Footer />
     </>
   );
 };
