@@ -84,6 +84,8 @@ export const Header: FunctionComponent<HeaderProps> = ({ data }) => {
                   key={item.title}
                   href={item.link}
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   {item.title}
                 </a>

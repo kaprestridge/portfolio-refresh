@@ -84,7 +84,16 @@ export const Hero: FunctionComponent = () => {
             <h1 className="text-4xl tracking-tight font-extrabold text-indigo-700 sm:text-5xl md:text-6xl">
               <span className="block xl:inline">Hi there, I'm Kathryn</span>
               <span className="block text-indigo-900 ">
-                I build cool apps and websites
+                Junior consultant at{" "}
+                <a
+                  href="https://alembic.com.au/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline"
+                >
+                  Alembic
+                </a>
+                , delivering beatiful technology outcomes.
               </span>
             </h1>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">

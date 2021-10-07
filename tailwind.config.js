@@ -9,6 +9,7 @@ module.exports = {
         teal: colors.teal,
         rose: colors.rose,
         "warm-gray": colors.warmGray,
+        "alembic-orange": "#ef3e24",
       },
     },
     minHeight: {
