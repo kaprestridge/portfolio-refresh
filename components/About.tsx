@@ -83,33 +83,14 @@ export const About = () => {
             </span>
           </h1>
           <p className="mt-8 text-2xl text-gray-500 leading-8">
-            {
-              "I am an animal lover, board game enthusiast, book worm and problem solver. I am enthusiastic about technology and how we can use it to make the world a better place. I am also passionate about creating spaces for women and minorities in STEM and prioritise building strong and supportive communities."
-            }
+            I am an animal lover, board game enthusiast, book worm and problem
+            solver. I am enthusiastic about technology and how we can use it to
+            make the world a better place. I am also passionate about creating
+            spaces for women and minorities in STEM and prioritise building
+            strong and supportive communities.
           </p>
         </div>
-        <div className="mt-6 prose prose-indigo prose-xl text-gray-500 mx-auto">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quo
-            provident dicta qui quam ea, deleniti mollitia aut, voluptas
-            expedita magni tenetur iure distinctio perspiciatis nemo, hic neque
-            cupiditate et!
-          </p>
-          <ul role="list">
-            <li>Quis elit egestas venenatis mattis dignissim.</li>
-            <li>
-              Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-            </li>
-            <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-          </ul>
-          <p>
-            Quis semper vulputate aliquam venenatis egestas sagittis quisque
-            orci. Donec commodo sit viverra aliquam porttitor ultrices gravida
-            eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet,
-            mattis. Nunc purus, diam commodo tincidunt turpis. Amet, duis sed
-            elit interdum dignissim.
-          </p>
-        </div>
+        <div className="mt-6 prose prose-indigo prose-xl text-gray-500 mx-auto"></div>
       </div>
     </div>
   );
