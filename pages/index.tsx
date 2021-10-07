@@ -5,7 +5,6 @@ import { Hero } from "../components/Hero";
 import { About } from "../components/About";
 import { Technologies } from "../components/Technologies";
 import { technologyData } from "../data/technologies";
-import { Quoteblock } from "../components/Quoteblock";
 import { Projects } from "../components/Projects";
 import { projectData } from "../data/projects";
 import { Contact } from "../components/Contact";
@@ -18,7 +17,6 @@ const Home: NextPage = () => {
       <Hero />
       <About />
       <Technologies data={technologyData} />
-      <Quoteblock />
       <Projects data={projectData} />
       <Contact />
       <Footer />
