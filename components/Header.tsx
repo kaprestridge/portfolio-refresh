@@ -10,7 +10,7 @@ export interface HeaderProps {
 export const Header: FunctionComponent<HeaderProps> = ({ data }) => {
   return (
     <Popover>
-      <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+      <div className="relative px-4 sm:px-6 lg:px-8">
         <nav
           className="relative flex items-center justify-between h-20"
           aria-label="Global"
