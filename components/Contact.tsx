@@ -4,7 +4,7 @@ export const Contact = () => {
       <main className="overflow-hidden">
         {/* Header */}
         <div className="bg-warm-gray-50">
-          <div className="py-24 lg:py-32">
+          <div className="pb-24 pt-36 lg:py-32">
             <div className="relative z-10 max-w-7xl mx-auto pl-4 pr-8 sm:px-6 lg:px-8">
               <h1 className="m-5 block  text-center tracking-wide text-5xl font-extrabold text-indigo-700">
                 Get in touch

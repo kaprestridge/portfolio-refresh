@@ -13,7 +13,7 @@ export interface TechnologyProps {
 
 export const Technologies: FunctionComponent<TechnologyProps> = ({ data }) => {
   return (
-    <>
+    <div className="py-36">
       <h1>
         <span className="m-5 block  text-center tracking-wide text-5xl font-extrabold text-indigo-700">
           {"Technical skill set"}
@@ -43,6 +43,6 @@ export const Technologies: FunctionComponent<TechnologyProps> = ({ data }) => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
